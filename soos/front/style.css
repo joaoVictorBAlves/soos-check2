@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #F2F2F2;
+  font-family: 'Roboto';
+  clear: both;
+  overflow-x: hidden;
+}
+img#logo{
+  margin-top: 64px;  margin-bottom: 64px;
+}
+img#logoUfc{
+  display: inline-block;
+  float: left;
+  margin-top: 56px;
+  margin-bottom: 57px;
+  margin-left: 15.45%;
+  margin-right: 13.885%;
+}
+
+img#logoSmd{
+  display: inline-block;
+  float: right;
+  position: relative;
+  right: 64px;
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+
+h1#titulo{
+  margin-top: 71px;
+  margin-bottom: 44px;
+  min-width: 404px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #000000;
+}
+
+main{  
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+form#loginForm input{
+  width: 84.54%;
+  padding-left:20px;
+  height: 50px;
+  min-width: 280px;
+  max-width: 500px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  margin-bottom: 16px;
+  border: 2px solid #000000;
+  border-radius: 25px;  
+  background: #FFFFFF;
+}
+
+form#loginForm input::-webkit-input-placeholder{
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+form#loginForm #btnLogar,
+form#loginForm #btnCadastrar{
+  min-width: 280px;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  width: 210px;
+  color: #FFF;
+  height: 50px;
+  left: 102px;
+  top: 563px;
+  background: #25387A;
+  border-radius: 35px;
+}
+
+form#loginForm a{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #000000;
+}
+
+#filtros{
+  padding: 0;
+  margin: 0;
+  padding-left: 8%;
+  margin-bottom: 44px;
+  float: unset;
+  list-style: none;
+  display: -webkit-box;
+  overflow-x: scroll;
+}
+#filtros::-webkit-scrollbar {
+    width: 0px;
+    height:0px;
+}
+#filtros li{
+  float: unset;
+  margin-right: 16px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#mapa-de-salas{
+  clear: left;
+  margin: auto;
+  margin-left: 7.7229%;
+  margin-right: 7.7229%;
+  padding-bottom: 86px;
+}
+.row{
+  padding:0;
+  margin: 0;
+}
+.caixaSala{
+  padding:0;
+  float: left;
+  font-weight: bold;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding-top: 32px;
+  margin-bottom: 16px;
+}
+.caixaSala.escolhido{
+  background: #25387A;
+  color: #fff;
+}
+.caixaSala.escolhido button{
+  background: #fff;
+  color: #25387A;
+}
+.caixaSala button{
+  color: #fff;
+  font-size: 15px;
+  background: #25387A;
+  border: none;
+  border-radius: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 16px;
+}
+.caixaSala span{
+  padding: 0;
+  display: inline-block;
+  margin-left: 53px;
+  margin-right: 53px;
+}
+.esquerdo{
+  margin-right:16px;
+}
+.btnSalas{
+  margin-top: 43px;
+  margin-bottom: 20px;
+}
+.permissao{
+ background: #fff url("img/lock.svg") center no-repeat;
+}
+.bloqueada{
+  background: #D0D0D0 url("img/slash.svg") center no-repeat;
+}
+footer nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer nav ul li{
+  display: inline;
+}
+footer nav ul li.arrow-left{
+  margin-right: 20.87%;
+  margin-left: 17.39%;
+}
+footer nav ul li.home{
+  margin-right: 20.91%;
+}
+#homeFooter{
+  color: #FFF;
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
+  
+  padding-top: 20px;
+  padding-bottom: 19px;
+  background: #25387A;
+  box-shadow: 0 0 8px black;
+  clear: both;
+}
+.feather {
+  width: 28px;
+  height: 31px;
+}
+
+
+/*Atualizações em tamanhos diferentes*/
+@media screen and (min-width: 500px){
+.caixaSala{
+ text-align: center;
+    
+}
+.caixaSala span{
+  padding: 0;
+  display: inline-block;
+  margin-left: 25.24%;
+  margin-bottom: 20px;
+}
+  footer nav ul li{
+    display: inline;
+  }
+  footer nav ul li.arrow-left{
+    margin-right: 35.08%;
+    margin-left: 05.26%;
+  }
+  footer nav ul li.home{
+    margin-right: 35.08%;
+  }
+}
+@media (min-width: 600px){
+  
+   footer nav ul li{
+    display: inline;
+  }
+  footer nav ul li.arrow-left{
+    margin-right: 30.94%;
+    margin-left: 14.64%;
+  }
+  footer nav ul li.home{
+    margin-right: 30.94%;
+  }
+}
